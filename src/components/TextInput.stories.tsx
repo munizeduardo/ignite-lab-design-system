@@ -37,7 +37,7 @@ export const PasswordInput: StoryObj<TextInputRootProps> = {
       <TextInput.Icon>
         <Lock />
       </TextInput.Icon>,
-      <TextInput.Input placeholder='************'/>
+      <TextInput.Input type="password" placeholder='********'/>
     ]
   }
 }
